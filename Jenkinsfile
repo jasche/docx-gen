@@ -15,44 +15,55 @@ pipeline {
             command:
             - cat
             tty: true
-          - name: busybox
-            image: busybox
-            command:
-            - cat
-            tty: true
         '''
     }
   }
   stages {
-    stage('Run maven') {
+    stage('Generate docx') {
       steps {
         container('maven') {
           script {
+
+            dir('xml') {
+
+              fileOperations(
+                  [
+                      fileCopyOperation(excludes: '', flattenFiles: false, includes: '**/*.*' , targetLocation: '../target')
+                  ]
+              
+              )
+            }
+
               
             def binding = [
-                 firstname : "Grace",
-                 lastname  : "Hopper",
-                 accepted  : true,
-                 title     : 'Groovy for COBOL programmers'
-             ]
-             def engine = new groovy.text.SimpleTemplateEngine()
-             def text = '''\
-             Dear <%= firstname %> $lastname,
+                 packageName : "Foo",
+                 version  : "1.2.3"
+            ]
+
+            dir('templates') {
+
+              ['word/settings.xml', 'docProps/custom.xml'].each{ f->
+                
+                def t = readFile file: f
+                writeFile file: '../target/' + f, text: renderTemplate(t, binding)
+
+              }
+            }
             
-             We <% if (accepted) print 'are pleased' else print 'regret' %> \
-             to inform you that your paper entitled
-             '$title' was ${ accepted ? 'accepted' : 'rejected' }.
-            
-             The conference committee.
-             '''
-             def template = engine.createTemplate(text).make(binding)
-             println template.toString()              
+            zip zipFile: 'test.docx', archive: false, dir: 'target'
+            archiveArtifacts artifacts: 'test.docx', fingerprint: true
+
+
           }
-        }
-        container('busybox') {
-          sh '/bin/busybox'
         }
       }
     }
   }
+}
+
+@NonCPS
+def renderTemplate(String  t, Map b) {
+    def e =  new groovy.text.StreamingTemplateEngine()
+    return e.createTemplate(t).make(b).toString()
+
 }
