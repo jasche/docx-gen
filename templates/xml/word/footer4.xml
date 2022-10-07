@@ -31,7 +31,7 @@
                     </w:tcBorders>
                     <w:hideMark />
                 </w:tcPr>
-                <w:p w14:paraId="552F4CBF" w14:textId="1E0FB0C6" w:rsidR="004E5D71" w:rsidRPr="00121DE9" w:rsidRDefault="004E5D71" w:rsidP="002A33FD">
+                <w:p w14:paraId="552F4CBF" w14:textId="4373BE2B" w:rsidR="004E5D71" w:rsidRPr="00121DE9" w:rsidRDefault="004E5D71" w:rsidP="002A33FD">
                     <w:pPr>
                         <w:pStyle w:val="Statuszeile" />
                     </w:pPr>
@@ -49,18 +49,6 @@
                             <w:bCs />
                         </w:rPr>
                         <w:instrText xml:space="preserve"> DOCVARIABLE  DocuM_DMaske_Dok.-Nr   </w:instrText>
-                    </w:r>
-                    <w:r w:rsidRPr="00121DE9">
-                        <w:rPr>
-                            <w:bCs />
-                        </w:rPr>
-                        <w:fldChar w:fldCharType="separate" />
-                    </w:r>
-                    <w:r>
-                        <w:rPr>
-                            <w:bCs />
-                        </w:rPr>
-                        <w:t xml:space="preserve"></w:t>
                     </w:r>
                     <w:r w:rsidRPr="00121DE9">
                         <w:rPr>
@@ -90,18 +78,6 @@
                         <w:rPr>
                             <w:bCs />
                         </w:rPr>
-                        <w:fldChar w:fldCharType="separate" />
-                    </w:r>
-                    <w:r>
-                        <w:rPr>
-                            <w:bCs />
-                        </w:rPr>
-                        <w:instrText xml:space="preserve"></w:instrText>
-                    </w:r>
-                    <w:r w:rsidRPr="00121DE9">
-                        <w:rPr>
-                            <w:bCs />
-                        </w:rPr>
                         <w:fldChar w:fldCharType="end" />
                     </w:r>
                     <w:r w:rsidRPr="00121DE9">
@@ -115,9 +91,6 @@
                     </w:r>
                     <w:r w:rsidRPr="00121DE9">
                         <w:fldChar w:fldCharType="end" />
-                    </w:r>
-                    <w:r w:rsidRPr="00121DE9">
-                        <w:instrText xml:space="preserve"></w:instrText>
                     </w:r>
                     <w:r w:rsidRPr="00121DE9">
                         <w:fldChar w:fldCharType="begin" />
@@ -157,9 +130,6 @@
                         <w:fldChar w:fldCharType="end" />
                     </w:r>
                     <w:r w:rsidRPr="00121DE9">
-                        <w:instrText xml:space="preserve"></w:instrText>
-                    </w:r>
-                    <w:r w:rsidRPr="00121DE9">
                         <w:fldChar w:fldCharType="begin" />
                     </w:r>
                     <w:r w:rsidRPr="00121DE9">
@@ -175,9 +145,6 @@
                         <w:fldChar w:fldCharType="end" />
                     </w:r>
                     <w:r w:rsidRPr="00121DE9">
-                        <w:instrText xml:space="preserve"></w:instrText>
-                    </w:r>
-                    <w:r w:rsidRPr="00121DE9">
                         <w:fldChar w:fldCharType="separate" />
                     </w:r>
                     <w:r w:rsidRPr="00121DE9">
@@ -186,8 +153,11 @@
                     <w:r w:rsidRPr="00121DE9">
                         <w:fldChar w:fldCharType="end" />
                     </w:r>
-                    <w:r w:rsidRPr="00121DE9">
-                        <w:instrText xml:space="preserve"></w:instrText>
+                    <w:r w:rsidR="00ED03C6">
+                        <w:fldChar w:fldCharType="separate" />
+                    </w:r>
+                    <w:r w:rsidR="00ED03C6" w:rsidRPr="00121DE9">
+                        <w:t>/</w:t>
                     </w:r>
                     <w:r w:rsidRPr="00121DE9">
                         <w:fldChar w:fldCharType="end" />
@@ -203,18 +173,6 @@
                             <w:bCs />
                         </w:rPr>
                         <w:instrText xml:space="preserve"> DOCVARIABLE  DocuM_DMaske_Teildokument   </w:instrText>
-                    </w:r>
-                    <w:r w:rsidRPr="00121DE9">
-                        <w:rPr>
-                            <w:bCs />
-                        </w:rPr>
-                        <w:fldChar w:fldCharType="separate" />
-                    </w:r>
-                    <w:r>
-                        <w:rPr>
-                            <w:bCs />
-                        </w:rPr>
-                        <w:t xml:space="preserve"></w:t>
                     </w:r>
                     <w:r w:rsidRPr="00121DE9">
                         <w:rPr>
@@ -399,7 +357,7 @@
                     <w:tcW w:w="11588" w:type="dxa" />
                     <w:vAlign w:val="center" />
                 </w:tcPr>
-                <w:p w14:paraId="5690B0F9" w14:textId="431877BD" w:rsidR="004E5D71" w:rsidRPr="00121DE9" w:rsidRDefault="004E5D71" w:rsidP="002A33FD">
+                <w:p w14:paraId="5690B0F9" w14:textId="7A5782CD" w:rsidR="004E5D71" w:rsidRPr="00121DE9" w:rsidRDefault="004E5D71" w:rsidP="002A33FD">
                     <w:pPr>
                         <w:pStyle w:val="FuzeileRechts1Zeile" />
                     </w:pPr>
@@ -412,7 +370,7 @@
                     <w:r w:rsidRPr="00121DE9">
                         <w:fldChar w:fldCharType="separate" />
                     </w:r>
-                    <w:r>
+                    <w:r w:rsidR="00ED03C6">
                         <w:t>Änderungsverzeichnis</w:t>
                     </w:r>
                     <w:r w:rsidRPr="00121DE9">
