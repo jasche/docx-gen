@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:ftr xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid wp14">
+    <w:tbl>
+        <w:tblPr>
+            <w:tblW w:w="0" w:type="auto" />
+            <w:tblLayout w:type="fixed" />
+            <w:tblCellMar>
+                <w:left w:w="0" w:type="dxa" />
+                <w:right w:w="0" w:type="dxa" />
+            </w:tblCellMar>
+            <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1" />
+        </w:tblPr>
+        <w:tblGrid>
+            <w:gridCol w:w="2438" />
+            <w:gridCol w:w="6634" />
+        </w:tblGrid>
+        <w:tr w:rsidR="004E5D71" w14:paraId="4070F01C" w14:textId="77777777" w:rsidTr="002A33FD">
+            <w:trPr>
+                <w:cantSplit />
+            </w:trPr>
+            <w:tc>
+                <w:tcPr>
+                    <w:tcW w:w="9072" w:type="dxa" />
+                    <w:gridSpan w:val="2" />
+                    <w:tcBorders>
+                        <w:top w:val="single" w:sz="12" w:space="0" w:color="auto" />
+                        <w:left w:val="nil" />
+                        <w:bottom w:val="single" w:sz="6" w:space="0" w:color="auto" />
+                        <w:right w:val="nil" />
+                    </w:tcBorders>
+                    <w:hideMark />
+                </w:tcPr>
+                <w:p w14:paraId="7474D088" w14:textId="2E5F9330" w:rsidR="004E5D71" w:rsidRDefault="004E5D71" w:rsidP="002A33FD">
+                    <w:pPr>
+                        <w:pStyle w:val="Statuszeile" />
+                    </w:pPr>
+                    <w:r>
+                        <w:t xml:space="preserve">Dok.-Nr. </w:t>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="begin" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"> DOCVARIABLE  DocuM_DMaske_Dok.-Nr   </w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="separate" />
+                    </w:r>
+                    <w:r>
+                        <w:t xml:space="preserve"></w:t>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="end" />
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="begin" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"> IF </w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="begin" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"> DOCVARIABLE  DocuM_DMaske_Teildokument   </w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="separate" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"></w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="end" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"> = " " </w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="begin" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"> QUOTE ""  </w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="end" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"></w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="begin" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"> IF </w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="begin" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"> DOCVARIABLE  DocuM_DMaske_Teildokument   </w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="separate" />
+                    </w:r>
+                    <w:r>
+                        <w:rPr>
+                            <w:b />
+                            <w:bCs />
+                        </w:rPr>
+                        <w:instrText>Fehler! Keine Dokumentvariable verfügbar.</w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="end" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"> = "" </w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="begin" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"> QUOTE ""  </w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="end" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"></w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="begin" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"> QUOTE “/”  </w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="separate" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText>/</w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="end" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"></w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="separate" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText>/</w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="end" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"></w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="end" />
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="begin" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"> DOCVARIABLE  DocuM_DMaske_Teildokument   </w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="separate" />
+                    </w:r>
+                    <w:r>
+                        <w:t xml:space="preserve"></w:t>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="end" />
+                    </w:r>
+                    <w:r>
+                        <w:t xml:space="preserve">  -  Version </w:t>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="begin" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"> DOCVARIABLE  DocuM_DMaske_Version   </w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="separate" />
+                    </w:r>
+                    <w:r>
+                        <w:t>1.0</w:t>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="end" />
+                    </w:r>
+                    <w:r>
+                        <w:t xml:space="preserve"> vom </w:t>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="begin" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"> DOCVARIABLE  DocuM_DMaske_Datum   </w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="separate" />
+                    </w:r>
+                    <w:r>
+                        <w:t>06.10.2022</w:t>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="end" />
+                    </w:r>
+                    <w:r>
+                        <w:t xml:space="preserve">  -  Produktzustand: </w:t>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="begin" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"> DOCVARIABLE  DocuM_DMaske_Produktzustand   </w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="separate" />
+                    </w:r>
+                    <w:r>
+                        <w:t>in Bearbeitung</w:t>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="end" />
+                    </w:r>
+                </w:p>
+            </w:tc>
+        </w:tr>
+        <w:tr w:rsidR="004E5D71" w14:paraId="2A05E6BF" w14:textId="77777777" w:rsidTr="002A33FD">
+            <w:trPr>
+                <w:cantSplit />
+                <w:trHeight w:hRule="exact" w:val="1340" />
+            </w:trPr>
+            <w:tc>
+                <w:tcPr>
+                    <w:tcW w:w="2438" w:type="dxa" />
+                    <w:vAlign w:val="center" />
+                    <w:hideMark />
+                </w:tcPr>
+                <w:p w14:paraId="47B84201" w14:textId="77777777" w:rsidR="004E5D71" w:rsidRDefault="004E5D71" w:rsidP="002A33FD">
+                    <w:pPr>
+                        <w:pStyle w:val="FuzeileInformationCommunications" />
+                        <w:rPr>
+                            <w:i w:val="0" />
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r>
+                        <w:drawing>
+                            <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="3F71F877" wp14:editId="1255C739">
+                                <wp:extent cx="1483995" cy="603885" />
+                                <wp:effectExtent l="0" t="0" r="1905" b="5715" />
+                                <wp:docPr id="12" name="Grafik 12" descr="Beschreibung: atlaslogo2" />
+                                <wp:cNvGraphicFramePr>
+                                    <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1" />
+                                </wp:cNvGraphicFramePr>
+                                <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+                                    <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                                        <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                                            <pic:nvPicPr>
+                                                <pic:cNvPr id="0" name="Grafik 3" descr="Beschreibung: atlaslogo2" />
+                                                <pic:cNvPicPr>
+                                                    <a:picLocks noChangeAspect="1" noChangeArrowheads="1" />
+                                                </pic:cNvPicPr>
+                                            </pic:nvPicPr>
+                                            <pic:blipFill>
+                                                <a:blip r:embed="rId1" cstate="print">
+                                                    <a:extLst>
+                                                        <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                                                            <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0" />
+                                                        </a:ext>
+                                                    </a:extLst>
+                                                </a:blip>
+                                                <a:srcRect />
+                                                <a:stretch>
+                                                    <a:fillRect />
+                                                </a:stretch>
+                                            </pic:blipFill>
+                                            <pic:spPr bwMode="auto">
+                                                <a:xfrm>
+                                                    <a:off x="0" y="0" />
+                                                    <a:ext cx="1483995" cy="603885" />
+                                                </a:xfrm>
+                                                <a:prstGeom prst="rect">
+                                                    <a:avLst />
+                                                </a:prstGeom>
+                                                <a:noFill />
+                                                <a:ln>
+                                                    <a:noFill />
+                                                </a:ln>
+                                            </pic:spPr>
+                                        </pic:pic>
+                                    </a:graphicData>
+                                </a:graphic>
+                            </wp:inline>
+                        </w:drawing>
+                    </w:r>
+                </w:p>
+            </w:tc>
+            <w:tc>
+                <w:tcPr>
+                    <w:tcW w:w="6634" w:type="dxa" />
+                    <w:vAlign w:val="center" />
+                </w:tcPr>
+                <w:p w14:paraId="02C9066B" w14:textId="07B5DAB2" w:rsidR="004E5D71" w:rsidRDefault="004E5D71" w:rsidP="002A33FD">
+                    <w:pPr>
+                        <w:pStyle w:val="FuzeileRechts1Zeile" />
+                    </w:pPr>
+                    <w:r>
+                        <w:fldChar w:fldCharType="begin" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"> STYLEREF "Überschrift 1"\n \* CHARFORMAT </w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="separate" />
+                    </w:r>
+                    <w:r>
+                        <w:t>4</w:t>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="end" />
+                    </w:r>
+                    <w:r>
+                        <w:t xml:space="preserve"></w:t>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="begin" />
+                    </w:r>
+                    <w:r>
+                        <w:instrText xml:space="preserve"> STYLEREF "Überschrift 1" \* CHARFORMAT </w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="separate" />
+                    </w:r>
+                    <w:r>
+                        <w:t>Installation des RPM-Pakets atlas_test-10.0.0-3.1-el7.noarch.rpm</w:t>
+                    </w:r>
+                    <w:r>
+                        <w:fldChar w:fldCharType="end" />
+                    </w:r>
+                </w:p>
+                <w:p w14:paraId="7507F97B" w14:textId="77777777" w:rsidR="004E5D71" w:rsidRDefault="004E5D71" w:rsidP="002A33FD">
+                    <w:pPr>
+                        <w:pStyle w:val="FuzeileRechts23Zeile" />
+                    </w:pPr>
+                </w:p>
+                <w:p w14:paraId="4DFACFE2" w14:textId="77777777" w:rsidR="004E5D71" w:rsidRDefault="004E5D71" w:rsidP="002A33FD">
+                    <w:pPr>
+                        <w:pStyle w:val="FuzeileRechts23Zeile" />
+                    </w:pPr>
+                    <w:r>
+                        <w:rPr>
+                            <w:noProof w:val="0" />
+                        </w:rPr>
+                        <w:t xml:space="preserve">Seite </w:t>
+                    </w:r>
+                    <w:r>
+                        <w:rPr>
+                            <w:noProof w:val="0" />
+                        </w:rPr>
+                        <w:fldChar w:fldCharType="begin" />
+                    </w:r>
+                    <w:r>
+                        <w:rPr>
+                            <w:noProof w:val="0" />
+                        </w:rPr>
+                        <w:instrText xml:space="preserve"> PAGE </w:instrText>
+                    </w:r>
+                    <w:r>
+                        <w:rPr>
+                            <w:noProof w:val="0" />
+                        </w:rPr>
+                        <w:fldChar w:fldCharType="separate" />
+                    </w:r>
+                    <w:r>
+                        <w:t>3</w:t>
+                    </w:r>
+                    <w:r>
+                        <w:rPr>
+                            <w:noProof w:val="0" />
+                        </w:rPr>
+                        <w:fldChar w:fldCharType="end" />
+                    </w:r>
+                </w:p>
+            </w:tc>
+        </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="27533572" w14:textId="77777777" w:rsidR="00D479D7" w:rsidRPr="004E5D71" w:rsidRDefault="00D479D7" w:rsidP="004E5D71">
+        <w:pPr>
+            <w:pStyle w:val="Fuzeile" />
+        </w:pPr>
+    </w:p>
+</w:ftr>
