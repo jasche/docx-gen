@@ -1,0 +1,58 @@
+controller:
+  installPlugins:
+    - kubernetes
+    - workflow-aggregator
+    - git
+    - configuration-as-code
+    - job-dsl
+    - pipeline-utility-steps
+    - file-operations
+  JCasC:
+    defaultConfig: true
+    configScripts:
+      welcome-message: |
+       jenkins:
+         systemMessage: Welcome to Jenkins, you are. Managed as code, this instance is.
+      example-job: |
+        jobs:
+          - script: >
+              multibranchPipelineJob('docx-gen') {
+                branchSources {
+                  git {
+                    id('docx-gen')  
+                    remote('https://github.com/jasche/docx-gen.git')
+                  }
+                }
+              }
+    securityRealm: |-
+      local:
+        allowsSignup: false
+        enableCaptcha: false
+        users:
+        - id: "admin"
+          name: "Jenkins Admin"
+          password: "${chart-admin-password}"
+    authorizationStrategy: |-
+      loggedInUsersCanDoAnything:
+        allowAnonymousRead: false
+    security:
+      apiToken:
+        creationOfLegacyTokenEnabled: false
+        tokenGenerationOnCreationEnabled: false
+        usageStatisticsEnabled: true
+      gitHooks:
+        allowedOnAgents: false
+        allowedOnController: false
+      gitHostKeyVerificationConfiguration:
+        sshHostKeyVerificationStrategy: "knownHostsFileVerificationStrategy"
+      globalJobDslSecurityConfiguration:
+        useScriptSecurity: true
+      sSHD:
+        port: -1
+      scriptApproval:
+        approvedSignatures:
+        - "method groovy.lang.GroovyObject invokeMethod java.lang.String java.lang.Object"
+        - "method groovy.text.Template make java.util.Map"
+        - "method groovy.text.TemplateEngine createTemplate java.lang.String"
+        - "new groovy.text.SimpleTemplateEngine"
+        - "new groovy.text.StreamingTemplateEngine"          
