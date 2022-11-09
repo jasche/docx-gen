@@ -12,7 +12,7 @@
     <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="5" name="release_tools">
         <vt:lpwstr>100</vt:lpwstr>
     </property>
-    <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="6" name="Paketname">
+    <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="6" name="${packageName}">
         <vt:lpwstr>atlas_test</vt:lpwstr>
     </property>
     <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="7" name="disttag">
